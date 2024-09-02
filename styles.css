@@ -3,7 +3,6 @@ body {
     background: rgba(0, 0, 0, 0.972);
     margin: 0px;
     font-family: "Jacquard 24 Charted", system-ui;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYW53EZneoWaCow9SD_Y2hN-bTSA6gT9e8eg&s);
     
 
 
@@ -15,22 +14,26 @@ body {
 
     header {
         border-bottom: solid 2px rgb(228, 42, 42);
-        padding: 20px;
+        padding: 30px;
         font-size: 32px;
         color: rgb(61, 42, 228);
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYW53EZneoWaCow9SD_Y2hN-bTSA6gT9e8eg&s);
+    
     }
 
 
     section {
-        background: rgb(4, 4, 3);
+        background: rgb(88, 88, 79);
         padding-bottom: 80px;
         padding-top: 80px;
         display: flex;
         justify-content: center;
     }
 
+
+
     .chamada-texto {
-        margin-right: 5%;
+        margin-right: 2%;
     }
 
     h1 {
@@ -45,24 +48,43 @@ body {
         height: 200px;
     }
    
-    .categoria-videos {
-        display: flex;
-        overflow-x: auto;
-        gap: 10px;
-    }
-
     .categoria {
+        background-color: rgba(236, 236, 8, 0.63);
         padding-left: 20px;
         padding-right: 20px;
-        border-bottom: solid;
-        
-        
+        margin-top: 30px;
 
     }
-   .jogos{
-        
-        margin: 180px
+
+    .categoria-videos {
+
+        display: flex;
+        overflow-x: auto;
+        grid-column-gap: 10px;
+
+
+    }
+       
+
+
+   .categoria-videos img {
+
+    opacity: 0.5;
 
    }
 
-eayhteghfdgeasghfdh
+   .categoria-videos img:hover {
+
+    opacity: 1.0;
+    border: 1px solid rgb(3, 3, 3);
+
+   }
+
+   .categoria h2 {
+
+    color: black;
+    margin: 30px;
+
+
+   }
+
